@@ -1,0 +1,19 @@
+{
+  "name": "hello_express",
+  "version": "1.0.0",
+  "description": "Simplest Express App",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Ajar <yariv.gilad@gmail.com> (https://timetocode.io)",
+  "license": "ISC",
+  "dependencies": {
+    "@ajar/marker": "^1.1.15",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
